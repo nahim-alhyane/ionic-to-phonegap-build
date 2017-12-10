@@ -2,7 +2,7 @@
     "author": "Nahim ALHYANE",
     "license": "MIT",
     "name": "ionic-to-phonegap-build",
-    "version": "1.0.0",
+    "version": "1.0.2",
     "description": "Create ZIP package and upload it to Phonegap Build",
     "bin": {
         "ionic-phonegap": "bin/index.js"
