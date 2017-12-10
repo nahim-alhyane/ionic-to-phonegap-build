@@ -7,7 +7,6 @@ npm install -g ionic-to-phonegap-build
 
 ## Usage:
 
-### Inside NodeJS applications
 You can import this script inside your NodeJS application:
 
 First you need it installed locally:
@@ -22,8 +21,6 @@ ionicToPhonegap.sendToPhonegapBuild('Your Phonegap app id', 'Your Phonega auth t
 
 ```
 
-ex.
-
 ## Parameters
 
 ### Phonegap application id
@@ -35,3 +32,36 @@ ex 'qfqfggFDGSsgdggs'
 ### Is Debug
 ex false
 
+## Execute with npm scripts
+
+
+### Create js file
+
+Create a phbuild.js file with following contents:
+
+...
+
+var ionicToPhonegap = require('ionic-to-phonegap-build');
+ionicToPhonegap.sendToPhonegapBuild('2922066', 'D9eKg6fdggjuxjskEbGm4KZy', true);
+
+...
+
+### Add script in package.json
+in your package.json add following script in the scripts section:
+
+...
+
+scripts: {
+"phbuild": "node phbuild.js"
+  },
+
+...
+
+### Run it
+Now you can run it manually:
+
+...
+
+npm run phbuild
+
+...
