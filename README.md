@@ -39,29 +39,29 @@ ex false
 
 Create a phbuild.js file with following contents:
 
-...
+```
 
 var ionicToPhonegap = require('ionic-to-phonegap-build');
 ionicToPhonegap.sendToPhonegapBuild('2922066', 'D9eKg6fdggjuxjskEbGm4KZy', true);
 
-...
+```
 
 ### Add script in package.json
 in your package.json add following script in the scripts section:
 
-...
+```
 
 scripts: {
 "phbuild": "node phbuild.js"
   },
 
-...
+```
 
 ### Run it
 Now you can run it manually:
 
-...
+```
 
 npm run phbuild
 
-...
+```
