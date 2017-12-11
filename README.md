@@ -17,7 +17,7 @@ Once you've done this you can use it in code:
 ```
 var ionicToPhonegap = require('ionic-to-phonegap-build');
 
-ionicToPhonegap.sendToPhonegapBuild('Your Phonegap app id', 'Your Phonega auth token', isDebugBoolean[true/false]);
+ionicToPhonegap.sendToPhonegapBuild('Your Phonegap app id', 'Your Phonegap auth token', isDebugBoolean[true/false]);
 
 ```
 
@@ -26,7 +26,7 @@ ionicToPhonegap.sendToPhonegapBuild('Your Phonegap app id', 'Your Phonega auth t
 ### Phonegap application id
 ex '2334553'
 
-### Phonegap application id
+### Phonegap authorisation token id
 ex 'qfqfggFDGSsgdggs'
 
 ### Is Debug
